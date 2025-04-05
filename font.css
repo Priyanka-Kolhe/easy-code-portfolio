@@ -1,0 +1,21 @@
+@font-face {
+    font-family:celteg ;
+    src: url(./celteg.TTF);
+}
+
+@font-face {
+    font-family: gochihand;
+    src: url(./gochihand);
+}
+
+*{
+    font-family: gochihand;
+}
+
+.celteg{
+    font-family: celteg;
+}
+
+.gochihand{
+    font-family: gochihand;
+}

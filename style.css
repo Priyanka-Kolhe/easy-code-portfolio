@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+} 
+
+.page-1{
+    height: 100vh;
+    width: 100wh;
+    background: #252127;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+
+.text-container h1 {
+    font-size: 5em;
+    color: #ffffffb7;
+    line-height: 0.9;
+}
+
+.portfolio-year  {
+    position: absolute;
+    top: 26%;
+    left: 26%;
+    color: #f6b53b;
+    font-size: 2.5em;
+    transform: rotate(-45deg);
+    letter-spacing: 6px;
+    font-weight: 700;
+}
+
+.tag-line {
+    color: #ffffff82;
+    font-size: 1.7em;
+    margin-top: 4vh;
+}
+
+.tag-line i {
+    font-size: 2em;
+}
+.shadow2{
+    height: 15vw;
+    width: 70vw;
+    position: absolute;
+    top: 0;
+    left:20px ;
+    z-index: 1;
+}
+
+.yellow-shadow {
+    background-color: #e4cc35c0;
+    filter: blur(120px);
+}
+
+.shadow1 {
+    height: 20vw;
+    width: 70vw;
+    position: absolute;
+    bottom: 0;
+    left:20px ;
+    z-index: 1;
+}
+
+.blue-shadow {
+    background-color: #bb31d390;
+    filter: blur(120px);
+}
+
+.circle1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 35px solid #f6b53b;
+    position: absolute;
+    top: -130px;
+    left: -80px;
+}
+
+.circle2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 35px solid #bb31d390;
+    position: absolute;
+    bottom: -150px;
+    right: -80px;
+}
+.page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #E2E2E2;
+    display: flex;
+}
+
+.profile-container{
+    height: 70%;
+    width: 50%;
+    
+}
+
+.info-container{
+    height: 70%;
+    width: 50%;
+   display: inline-block;
+    
+}
+
+.profile{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #f6b53b;
+    /* margin:0 auto ; */
+    margin-top: 50px;
+    margin-left: 300px;
+    overflow: hidden;
+}
+
+.profile img {
+    height: 100%;
+    width: 100%; 
+}
+
+.hello-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hello-heading{
+    text-align: center;
+    color: #252127;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.hello-heading i {
+    color: #f6b53b;
+}
+
+.paragraph-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.paragraph-container p {
+
+    font-size: 1.3em;
+    margin-top: 4vh;
+}
